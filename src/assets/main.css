@@ -108,7 +108,13 @@ h3 {
 .intro {
   margin: 10rem auto;
   width: 75%;
+  max-width: 900px;
+  padding: 10rem 0;
   text-align: center;
+}
+
+.intro h3 {
+  font-size: 3rem;
 }
 
 /* DETAILS */
@@ -387,6 +393,11 @@ h4 {
   /* INTRO */
   .intro {
     width: 100%;
+    padding: 5rem 0;
+  }
+
+  .intro h3 {
+    font-size: 1.75rem;
   }
 
   /* BUTTON */
@@ -401,7 +412,9 @@ h4 {
 
   /* DETAILS */
   .details-path {
-    clip-path: polygon(0 10%, 100% 0, 100% 93%, 0% 100%);
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+    padding-top: 0;
+    padding-bottom: 1rem;
   }
 
   .blockchain,
@@ -526,6 +539,12 @@ h4 {
   }
 
   /* DETAILS */
+  .details-path {
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+
   .blockchain,
   .ai,
   .is {
